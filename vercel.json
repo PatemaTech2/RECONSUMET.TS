@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/src/main.ts" }
+  ],
+  "functions": {
+    "src/main.ts": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
+}
